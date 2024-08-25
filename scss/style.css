@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
+* {
+  font-family: Roboto;
+}
+
+.top_header {
+  box-sizing: border-box;
+}
+.top_header .container {
+  margin-left: 93px;
+  padding: 0;
+}
+.top_header .container .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 32px;
+}
+.top_header .container .heading .sub-heading-right {
+  display: flex;
+  gap: 16px;
+}
+.top_header .container .heading .sub-heading-right p {
+  font-size: 14px;
+  border-right: 1px solid #676767;
+  padding-right: 12px;
+  margin-top: 20px;
+}
+.top_header .container .heading .sub-heading-right p:nth-child(4) {
+  border-right: none;
+}
+.top_header .container .heading .sub-heading-left a {
+  color: black;
+}
+
+.header_section {
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid rgb(216, 206, 206);
+}
+.header_section .container {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.header_section .container .logo {
+  width: 15%;
+}
+.header_section .container .menu_holder {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.header_section .container .menu_holder .menu {
+  width: 60%;
+}
+.header_section .container .menu_holder .menu nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.header_section .container .menu_holder .menu nav ul li {
+  margin: 0px 5px;
+}
+.header_section .container .menu_holder .menu nav ul li a {
+  text-decoration: none;
+  color: #2F3645;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+.header_section .container .menu_holder .menu nav ul li a:hover {
+  border-bottom: 2px solid #939185;
+}
+.header_section .container .menu_holder .cta_btn {
+  width: 25%;
+}
+.header_section .container .menu_holder .cta_btn button {
+  border: 0;
+  background: none;
+}
+.header_section .container .menu_holder .cta_btn button a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  background-color: #2F3645;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.header_section .container .menu_holder .cta_btn button a:hover {
+  background-color: #E6B9A6;
+  color: #ffffff;
+}
+
+.hero_section {
+  padding: 0;
+  background-color: #ffffff;
+  min-height: 80vh;
+  box-sizing: border-box;
+}
+.hero_section .container-fluid {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_section .container-fluid .hero_heading {
+  width: 50%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.hero_section .container-fluid .hero_heading h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.hero_section .container-fluid .btn_holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.hero_section .container-fluid .btn_holder button {
+  border: 0;
+  background: none;
+}
+.hero_section .container-fluid .btn_holder button a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  background-color: #2F3645;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 300;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.hero_section .container-fluid .btn_holder button a:hover {
+  background-color: #E6B9A6;
+  color: #ffffff;
+}
+.hero_section .container-fluid .btn_holder button:nth-child(2) {
+  border: 0;
+  background: none;
+}
+.hero_section .container-fluid .btn_holder button:nth-child(2) a {
+  text-decoration: none;
+  padding: 8px 24px;
+  display: block;
+  background-color: transparent;
+  color: #2F3645;
+  font-size: 13px;
+  border: 1px solid #2F3645;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.hero_section .container-fluid .btn_holder button:nth-child(2) a:hover {
+  background-color: #2F3645;
+  color: #ffffff;
+}
+.hero_section .container-fluid .hero_image {
+  width: 50%;
+}
+.hero_section .container-fluid .hero_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.cards_section {
+  background-color: #F7F7F7;
+}
+.cards_section .container-fluid .cards_headings {
+  padding-top: 50px;
+}
+.cards_section .container-fluid .cards_headings h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.cards_section .container-fluid .cards_headings p {
+  font-size: 18px;
+}
+.cards_section .container-fluid .card-body {
+  text-align: center;
+}
+
+.about_section {
+  padding: 0;
+  background-color: #ffffff;
+  min-height: 80vh;
+  box-sizing: border-box;
+}
+.about_section .container-fluid {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_section .container-fluid .about_heading {
+  width: 50%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.about_section .container-fluid .about_heading h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 120%;
+  max-width: 580px;
+}
+.about_section .container-fluid .btn_holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.about_section .container-fluid .btn_holder button {
+  border: 0;
+  background: none;
+}
+.about_section .container-fluid .btn_holder button a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  background-color: #2F3645;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 300;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.about_section .container-fluid .btn_holder button a:hover {
+  background-color: #E6B9A6;
+  color: #ffffff;
+}
+.about_section .container-fluid .about_image {
+  width: 50%;
+}
+.about_section .container-fluid .about_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.team_section .container-fluid .team_headings {
+  padding-top: 80px;
+}
+.team_section .container-fluid .team_headings h2 {
+  font-size: 48px;
+}
+.team_section .container-fluid .cards_holder .card {
+  border: none;
+  max-width: 540px;
+}
+.team_section .container-fluid .cards_holder .card .icons a {
+  margin: 0px 7px;
+  color: black;
+}
+
+.enroll_form .container-fluid {
+  background-color: #F7F7F7;
+  padding: 100px 80px;
+}
+.enroll_form .container-fluid .sub-form {
+  padding-right: 50px;
+}
+.enroll_form .container-fluid .sub-form .about_heading p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+.enroll_form .container-fluid .sub-form .about_heading p:nth-child(1) {
+  font-size: 16px;
+}
+.enroll_form .container-fluid .sub-form .about_heading h1 {
+  font-size: 48px;
+}
+.enroll_form .container-fluid .sub-form .about_heading .form-check {
+  margin-left: 12px;
+}
+.enroll_form .container-fluid .sub-form .form .form-check {
+  margin-left: 12px;
+}
+.enroll_form .container-fluid .sub-form .form .form-check .form-check-input {
+  border: 1px solid black;
+}
+.enroll_form .container-fluid .sub-form .form button {
+  margin-top: 24px;
+  background-color: black;
+}
+.enroll_form .container-fluid .about_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.help-section .container-fluid {
+  padding: 112px 80px;
+}
+.help-section .container-fluid .row {
+  border: 1px solid black;
+  padding: 20px;
+}
+.help-section .container-fluid .row h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.help-section .container-fluid .row p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subscribe-section .container {
+  padding: 0px 80px;
+}
+.subscribe-section .container .subscribe-heading {
+  margin: 0px auto;
+  max-width: 714px;
+  text-align: center;
+}
+.subscribe-section .container .subscribe-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.subscribe-section .container .subscribe-heading p {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.subscribe-section .container .form {
+  margin-top: 40px;
+}
+.subscribe-section .container .form button {
+  background-color: black;
+}
+.subscribe-section .container p {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.contact-section .container-fluid {
+  padding: 100px 80px 20px 80px;
+}
+.contact-section .container-fluid .contact-div {
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.contact-section .container-fluid .contact-div .contact-heading {
+  width: 45%;
+}
+.contact-section .container-fluid .contact-div .contact-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0px;
+}
+.contact-section .container-fluid .contact-div .contact-heading .form button {
+  background-color: black;
+}
+.contact-section .container-fluid .contact-div .contact-heading .form p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.contact-section .container-fluid .contact-div .about-me {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.contact-section .container-fluid .contact-div .about-me .about h6 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 28px;
+}
+.contact-section .container-fluid .contact-div .about-me .about ul {
+  list-style: none;
+}
+.contact-section .container-fluid .contact-div .about-me .about ul li {
+  padding: 7px 0px;
+}
+.contact-section .container-fluid .contact-div .about-me .about ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+.contact-section .container-fluid .contact-div .about-me .services h5 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 28px;
+}
+.contact-section .container-fluid .contact-div .about-me .services ul {
+  list-style: none;
+}
+.contact-section .container-fluid .contact-div .about-me .services ul li {
+  padding: 7px 0px;
+}
+.contact-section .container-fluid .contact-div .about-me .services ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+.contact-section .container-fluid .contact-div .about-me .Follow-Us h5 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 28px;
+}
+.contact-section .container-fluid .contact-div .about-me .Follow-Us ul {
+  list-style: none;
+}
+.contact-section .container-fluid .contact-div .about-me .Follow-Us ul li {
+  padding: 8px 0px;
+}
+.contact-section .container-fluid .contact-div .about-me .Follow-Us ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+.contact-section .container-fluid .contact-div .about-me .Follow-Us ul li a svg {
+  margin-right: 10px;
+}
+
+.footer-section .container-fluid .footer-content {
+  padding: 0px 50px 80px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section .container-fluid .policy {
+  display: flex;
+}
+.footer-section .container-fluid .policy li {
+  list-style: none;
+  margin: 0px 20px;
+}
+.footer-section .container-fluid .policy li a {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
